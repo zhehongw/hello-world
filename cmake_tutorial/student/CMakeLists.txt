@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.9)
+cmake_minimum_required(VERSION 3.16.0)
 project(directory_test)
 
 #Bring the headers, such as Student.h into the project
@@ -11,3 +11,4 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cpp")
 
 add_executable(testStudent ${SOURCES})
+#to build in the build directory, simply "cd build", after "cmake ..", "make" in the build directory
