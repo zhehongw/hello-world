@@ -1,3 +1,3 @@
 # hello-world
 
-I'm new to git hub, hope it's intresting
+This is a practice repo for everything I learn
